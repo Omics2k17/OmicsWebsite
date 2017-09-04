@@ -28,36 +28,36 @@ a{
 
 #about{
 	background-color: #FFFFFF;
-	background-color: blue;
+	background-color: #80DEEA;
 }
 
 
 #events1{
 	background-color: #FFFFFF;
-	background-color: green;
+	background-color: #18FFFF;
 }
 
 #events2{
 	background-color: #FFFFFF;
-	background-color: yellow;
+	background-color: #00E5FF;
 }
 
 #events3{
 	background-color: #FFFFFF;
-	background-color: orange;
+	background-color: #00B8D4;
 }
 
 #events4{
 	background-color: #FFFFFF;
-	background-color: yellow;
+	background-color: #84FFFF;
 }
 
 #events5{
-	background-color: 
+	background-color: #84FFFF;
 }
 
 .slantedLeft1 {
-	background-color: red;
+	background-color: #BBDEFB;
     height:600px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);    
@@ -65,14 +65,14 @@ a{
 
 .slantedRight2 {
 	background-color: #FFFFFF;
-	background-color: blue;
+	background-color: #80DEEA;
     height:600px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);    
 }
 
 .slantedLeft3 {
-	background-color: green;
+	background-color: #18FFFF;
     height:600px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);    
@@ -80,14 +80,14 @@ a{
 
 .slantedRight4 {
 	background-color: #FFFFFF;
-	background-color: yellow;
+	background-color: #00E5FF;
     height:600px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);    
 }
 
 .slantedLeft5 {
-	background-color: orange;
+	background-color: #00B8D4;
     height:600px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);    
@@ -95,7 +95,7 @@ a{
 
 .slantedRight6 {
 	background-color: #FFFFFF;
-	background-color: yellow;
+	background-color: #84FFFF;
     height:600px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);    
@@ -109,7 +109,7 @@ a{
 }
 
 .slantedNo2 {
-	background-color: purple;
+	background-color: #0b2a3d;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);   
 }
@@ -192,8 +192,13 @@ a{
     text-align: center;
 }
 
+.sep {
+	background-color: #FFFFFF;
+	height: 1px;
+}
+
 .copyrightPrint{
-	background-color: #000000;
+	background-color: #0b2a3d;
 }
 
 .copyright{
@@ -205,8 +210,27 @@ a{
 	text-align: justify;	
 }
 
+.btn, .btn-large {
+	background-color: #0b2a3d;
+}
+
+.btn:hover, .btn-large:hover {
+	background-color: #FFFFFF;
+    color: #0b2a3d;
+}
+
+.modal .modal-close {
+	background-color: #0b2a3d;
+	color: #FFFFFF;
+}
+
+.btn-flat:hover{
+	background-color: #FFFFFF;
+    color: #0b2a3d;	
+}
+
 nav{
-	background-color: #009688;
+	background-color: #0b2a3d;
 	color: #e3f2fd;
 }
 
@@ -234,5 +258,9 @@ nav ul a{
 #model1 {
 	height: 200px;
 	width: 100%;
+}
+
+#con{
+	color: #FFFFFF;
 }
 
