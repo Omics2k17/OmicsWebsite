@@ -50,105 +50,98 @@
 
 
 	<div id="modal" class="modal modal-fixed-footer">
+		<form class="col s12"  action="reg.php" method="POST">
 		<div class="modal-content">
 
 
-			<form class="col s12" action='#'>
+			
+			<div class="row">
+			<div class="col s12 m12 l12">
+			<h2><center>OMICS 2k17 Registrations</center></h2></div>
+			</div>
 				<div class="row">
-					<div class="col s12 m12 l12">
-						<h2><center>OMICS 2k17 Registrations</center></h2></div>
+					<div class="input-field col s12 ">
+						<i class="material-icons prefix">person_outline</i>
+						<input id="name" name = "name1" type="text" class="validate">
+						<label for="name"> Name</label>
 					</div>
-					<div class="row">
-						<div class="input-field col s12 m6">
-							<i class="material-icons prefix">person_outline</i>
-							<input id="first_name" type="text" class="validate">
-							<label for="first_name">First Name</label>
-						</div>
-						<div class="input-field col s12 m6">
-							<i class="material-icons prefix">person_outline</i>
-							<input id="last_name" type="text" class="validate">
-							<label for="last_name">Last Name</label>
-						</div>
+					
+				</div>
+				<div class="row">
+					<div class="input-field col s12 m6">
+						<i class="material-icons prefix">email</i>
+						<input id="email" name = "email1" type="email" class="validate">
+						<label for="email">Email</label>
 					</div>
-					<div class="row">
-						<div class="input-field col s12 m6">
-							<i class="material-icons prefix">email</i>
-							<input id="email" type="email" class="validate">
-							<label for="email">Email</label>
-						</div>
-						<div class="input-field col s12 m6">
-							<i class="material-icons prefix">local_phone</i>
-							<input id="phone" type="tel" class="validate">
-							<label for="phone">Phone Number</label>
-						</div>
+					<div class="input-field col s12 m6">
+						<i class="material-icons prefix">local_phone</i>
+						<input id="phone" name = "phone1"type="tel" class="validate">
+						<label for="phone">Phone Number</label>
 					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<i class="material-icons prefix">school</i>
-							<input id="college" type="text" class="validate">
-							<label for="college">College Name</label>
-						</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<i class="material-icons prefix">school</i>
+						<input id="college" name = "college1" type="text" class="validate">
+						<label for="college">College Name</label>
 					</div>
-					<div class="row">
-						<div class="col s12 text-center">
-							<span id='events'>Events</span><br />
-							<div class="row">
-								<div class='col s12 m4'>
-									<p>
-										<input name='selectEvent' type="checkbox" id="event1"/>
-										<label for="event1">Event One</label>
-									</p>
-									<p>
-										<input name='selectEvent' type="checkbox" id="event2"/>
-										<label for="event2">Event Two</label>
-									</p>
-									<p>
-										<input name='selectEvent' type="checkbox" id="event3"/>
-										<label for="event3">Event Three</label>
-									</p>
-								</div>
-								<div class='col s12 m4'>
-									<p>
-										<input name='selectEvent' type="checkbox" id="event4"/>
-										<label for="event4">Event Four</label>
-									</p>
-									<p>
-										<input name='selectEvent' type="checkbox" id="event5"/>
-										<label for="event5">Event Five</label>
-									</p>
-									<p>
-										<input name='selectEvent' type="checkbox" id="event6"/>
-										<label for="event6">Event Six</label>
-									</p>
-								</div>
-								<div class='col s12 m4'>
-									<p>
-										<input name='selectEvent' type="checkbox" id="event7"/>
-										<label for="event7">Event Seven</label>
-									</p>
-									<p>
-										<input name='selectEvent' type="checkbox" id="event8"/>
-										<label for="event8">Event Eight</label>
-									</p>
-									<p>
-										<input name='selectEvent' type="checkbox" id="event9"/>
-										<label for="event9">Event Nine</label>
-									</p>
-								</div>
+				</div>
+				<div class="row">
+					<div class="col s12 text-center">
+						<span id='events'>Events</span><br />
+						<div class="row">
+							<div class='col s12 '>
+								<p>
+									<input name='papp'  type="checkbox" id="event1" value = "papp"/>
+									<label for="event1">Paper and Poster Presentation</label>
+								</p>
+								
+							</div>
+							<div class='col s12 '>
+								<p>
+									<input name='forensics' type="checkbox" id="event2" value = "forensics"/>
+									<label for="event2">Forensics</label>
+								</p>
+								
+							</div>
+							<div class='col s12 '>
+								<p>
+									<input name='quiz' type="checkbox" id="event3" value = "quiz"/>
+									<label for="event3">Quiz</label>
+								</p>
+								
+							</div>
+							<div class='col s12 '>
+								<p>
+									<input name='bat' type="checkbox" id="event4" value = "bat"/>
+									<label for="event4">Block N' Tackle</label>
+								</p>
+								
+							</div>
+							<div class='col s12 '>
+								<p>
+									<input name='sc' type="checkbox" id="event5" value = "sc" />
+									<label for="event5">Scatterbrain</label>
+								</p>
+								
 							</div>
 						</div>
 					</div>
-				</form>
-
-
-
-			</div>
-
+				</div>
+				</div>
 			<div class="modal-footer">
-				<input  class="modal-action  waves-effect waves-green btn-flat " type="submit" />
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat " >Close</a>
-			</div>
-		</div>       
+			<input  class="modal-action  waves-effect waves-green btn-flat " type="submit" />
+			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat " >Close</a>
+		</div>
+
+			</form>
+
+
+
+		
+
+		
+	</div>   
 
 		<section id="about">
 			<div class="slantedLeft1">
